@@ -10,7 +10,7 @@ function addTask() {
     Math.random().toString(36).substring(2, 7);
   task.classList.add("list-item");
 
-  // Adding edit button
+
   const editButton = document.createElement("button");
   editButton.textContent = "Edit";
   editButton.classList.add("edit-button");
@@ -22,7 +22,7 @@ function addTask() {
   document.getElementById("task-container").appendChild(task);
   document.getElementById("tf-input").value = "";
 
-  // Adding delete button
+
   const deleteButton = document.createElement("button");
   deleteButton.textContent = "Delete";
   deleteButton.classList.add("delete-button");
